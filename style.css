@@ -1,0 +1,113 @@
+.ketto {
+  weight: 60px;
+  background-color: black;
+  font-color: white;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  height: 300px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: 900px 300px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  white-space: nowrap;
+}
+
+.header h2 {
+  padding-top: 182px;
+  padding-left: 200px;
+  margin: 0;
+  font-size: 130%;
+  font-weight: normal;
+}
+
+.header h1 {
+  padding-left: 200px;
+  margin: 0;
+  font-size: 255%;
+  line-height: 90%;
+  font-weight: normal;
+}
+
+.szoveg {
+  color: #222;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.szoveg p, li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 64%;
+  line-height: 170%;
+}
+
+.idezet {
+  background-color: #404040;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  margin: 20px auto;
+  width: 600px;
+  font-size: 170%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.idezet blockquote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 300%;
+  line-height: 80%;
+}
+
+.szoveg h3 {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 90%;
+  letter-spacing: 1px;
+}
+
+.szoveg h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80%;
+  line-height: 160%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.szoveg h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 49%;
+  line-height: 160%;
+}
+
+.szoveg h6 {
+  font-family: 'Merriweather', serif;
+  font-size: 52%;
+  line-height: 1%;
+  margin-top: 0;
+}
+
+.lista {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80%;
+  line-height: 160%;
+}
+
+hr {
+  border: 1px solid #222;
+}
